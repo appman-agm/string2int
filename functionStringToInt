@@ -1,0 +1,4 @@
+private string StringToInt(string input) 
+{
+    return new string(input.ToCharArray().Where(w => char.IsDigit(w)).ToArray());
+}
