@@ -1,0 +1,13 @@
+ private string StringToIntLoop(string input)
+  {
+      var ListChar = input.ToCharArray();
+      string output = string.Empty;
+      foreach (var c in ListChar) {
+          var result = char.IsNumber(c);
+
+          if (char.IsNumber(c)) {
+              output += c.ToString(); 
+          }
+      }
+      return output;
+  }
