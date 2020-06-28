@@ -18,11 +18,11 @@ public class String2Int {
 	}
 	
 	public static int convertStringToInt (String word) {
-		 int answer = 0, factor = 1;
-		    for (int i = word.length()-1; i >= 0; i--) {
-		        answer += (word.charAt(i) - '0') * factor;
-		        factor *= 10;
-		    }
-		    return answer;
+		int answer = 0, factor = 1;
+		for (int i = word.length()-1; i >= 0; i--) {
+			answer += (word.charAt(i) - '0') * factor;
+			factor *= 10;
+  		}
+  		return answer;
 	}
 }
