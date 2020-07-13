@@ -10,7 +10,7 @@ public class string2int {
         String str = sc.nextLine();
         ArrayList<Integer> intArray = new ArrayList<Integer>();
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) > '0' && str.charAt(i) < '9') {
+            if (str.charAt(i) >= '0' && str.charAt(i) <= '9') {
                 int intCh = str.charAt(i) - '0';
                 intArray.add(intCh);
             }
