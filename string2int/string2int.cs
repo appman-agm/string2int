@@ -6,18 +6,19 @@ public class string2int
     public static void Main()
     {
         string str = Console.ReadLine();
-        string st = "";
         int num = 0;
         bool[] chk = new bool[128];
-        int index = str.Length();
-        for (int i = 0; i < index; i++)
+        foreach (char c in str)
         {
-            if (chk[(int)str[i]])
+            if (c>=48 && c <= 57)
             {
-                st += x;
+                Console.WriteLine(c);
+                num *= 10;
+                num += c - '0';
             }
+
+
         }
-        num = num * 10 + valueOf(st);
         Console.WriteLine(num);
     }
 }
