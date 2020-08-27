@@ -17,7 +17,6 @@ public class string2int
                 st += x;
             }
         }
-
         num = num * 10 + valueOf(st);
         Console.WriteLine(num);
     }
