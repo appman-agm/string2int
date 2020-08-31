@@ -1,0 +1,13 @@
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\bin\Debug\netcoreapp3.1\string2int.exe
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\bin\Debug\netcoreapp3.1\string2int.deps.json
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\bin\Debug\netcoreapp3.1\string2int.runtimeconfig.json
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\bin\Debug\netcoreapp3.1\string2int.runtimeconfig.dev.json
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\bin\Debug\netcoreapp3.1\string2int.dll
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\bin\Debug\netcoreapp3.1\string2int.pdb
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.csprojAssemblyReference.cache
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.AssemblyInfoInputs.cache
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.AssemblyInfo.cs
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.csproj.CoreCompileInputs.cache
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.dll
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.pdb
+C:\Users\gamemumu\Desktop\Work\Exam\string2int\string2int\obj\Debug\netcoreapp3.1\string2int.genruntimeconfig.cache
