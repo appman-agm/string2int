@@ -1,0 +1,19 @@
+public void testNumberic(String inputText){
+   String text = inputText;
+   String res = "";
+   for(int i=0; i<text.length(); i++){
+      if( (text.charAt(i) == '1')
+         || (text.charAt(i) == '2')
+         || (text.charAt(i) == '3')
+         || (text.charAt(i) == '4')
+         || (text.charAt(i) == '5')
+         || (text.charAt(i) == '6')
+         || (text.charAt(i) == '7')
+         || (text.charAt(i) == '8')
+         || (text.charAt(i) == '9')){
+         res += text.charAt(i);
+      } 
+   }
+   int result = Integer.valueOf(res) ;
+   System.out.print("Result : "+result);
+}
