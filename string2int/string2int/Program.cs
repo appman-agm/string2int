@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace string2int
 {
@@ -7,19 +8,10 @@ namespace string2int
         static void Main(string[] args)
         {
             Console.WriteLine("Please Input any string or int");
-            var str = Console.ReadLine().ToString();
-            string numericString = string.Empty;
-            foreach (var c in str)
-            {
-                // Check for numeric characters
-                if ((c >= '0' && c <= '9'))
-                {
-                    numericString += c.ToString();
-                }
-            }
+            var intput = Console.ReadLine().ToString();
+            string output = Regex.Replace(intput, "\\D+", "").Trim();    
             Console.Write("Result : ");
-            Console.WriteLine(StrToInt(numericString));
-
+            Console.WriteLine(StrToInt(output));
 
             int StrToInt(string str)
             {
