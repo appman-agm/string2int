@@ -18,7 +18,19 @@ namespace string2int
                 }
             }
             Console.Write("Result : ");
-            Console.WriteLine(numericString);
+            Console.WriteLine(StrToInt(numericString));
+
+
+            int StrToInt(string str)
+            {
+                int response = 0;
+                foreach (char c in str)
+                {
+                    response *= 10;
+                    response += c - '0';
+                }
+                return response;
+            }
         }
     }
 }
