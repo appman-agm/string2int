@@ -1,11 +1,17 @@
 package main;
 
+import java.util.Scanner;
+
 public class AppManChallenge {
 
 	public static void main(String[] args) {
-		String text = "a5b7c3";
-		AppManChallenge.stringToInt(text);
-		System.out.println(AppManChallenge.stringToInt(text));
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter text: ");
+		String text = sc.nextLine();
+		sc.close();
+		
+		int result = AppManChallenge.stringToInt(text);
+		System.out.println("Result: "+result);
 	}
 	
 	public static int stringToInt(String s) {
