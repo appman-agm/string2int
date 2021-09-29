@@ -1,8 +1,13 @@
 ﻿using System;
-
+/**
+ * Fillter all integers in given string, build whole integer and return it
+ * 
+ * Note: The reason it doesn't have Main function is, it is supposed to be a
+ * converter and used as utility function.
+ * 
+ * **/
 namespace String2IntTest
 {
-
     public class String2Int
     {
         int _Integer;
@@ -40,7 +45,6 @@ namespace String2IntTest
         {
             return (int)c >= 48 && (int)c <= 57 ;
         }
-
     }
 
 }
