@@ -15,7 +15,7 @@ namespace String2IntTest.Tests
             try
             {
                 String2Int strinput = new String2Int();
-                strinput.GetOnlyDigit("");
+                strinput.FillterInteger("");
             }
             catch (ArgumentException e)
             {
@@ -30,7 +30,7 @@ namespace String2IntTest.Tests
             try
             {
                 String2Int strinput = new String2Int();
-                strinput.GetOnlyDigit(" *,");
+                strinput.FillterInteger(" *,");
             }
             catch (ArgumentException e)
             {
@@ -45,8 +45,8 @@ namespace String2IntTest.Tests
         {
 
             String2Int strinput = new String2Int();
-            strinput.GetOnlyDigit("034599");
-            Assert.AreEqual(034599, strinput.GetStr2Int);
+            strinput.FillterInteger("034599");
+            Assert.AreEqual(034599, strinput.GetInteger);
 
 
         }
@@ -54,8 +54,8 @@ namespace String2IntTest.Tests
         public void TestSampleInputA()
         {
             String2Int strinput = new String2Int();
-            strinput.GetOnlyDigit("abc573");
-            Assert.AreEqual(573, strinput.GetStr2Int);
+            strinput.FillterInteger("abc573");
+            Assert.AreEqual(573, strinput.GetInteger);
 
         }
 
@@ -63,8 +63,8 @@ namespace String2IntTest.Tests
         public void TestSampleInputB()
         {
             String2Int strinput = new String2Int();
-            strinput.GetOnlyDigit("a5b7c3");
-            Assert.AreEqual(573, strinput.GetStr2Int);
+            strinput.FillterInteger("a5b7c3");
+            Assert.AreEqual(573, strinput.GetInteger);
 
         }
 

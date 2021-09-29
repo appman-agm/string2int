@@ -5,12 +5,12 @@ namespace String2IntTest
 
     public class String2Int
     {
-        int _StrInput;
-        public int GetStr2Int
+        int _Integer;
+        public int GetInteger
         {
-            get { return _StrInput; }
+            get { return _Integer; }
         }
-        public void GetOnlyDigit(string strinput)
+        public void FillterInteger(string strinput)
         {
             int output = 0 ;
             bool IsHasDigit = false;
@@ -21,21 +21,24 @@ namespace String2IntTest
             }
 
             foreach (char i in strinput)
-            {
-        
-                if ((int)i >= 48 && (int)i <= 57)
+            {   
+                if (IsDigit(i))
                 {
                     IsHasDigit = true;
                     output = (output * 10) + ((int)i - 48);
                 }
             }
 
-            if (IsHasDigit == false && output == 0)
+            if (!IsHasDigit && output == 0)
             {
                 throw new ArgumentException("Output is null");
             }
 
-            _StrInput = output;
+            _Integer = output;
+        }
+        private bool IsDigit(char c)
+        {
+            return (int)c >= 48 && (int)c <= 57 ;
         }
 
     }
